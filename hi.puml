@@ -1,1 +1,11 @@
-QHN0YXJ0dW1sCgp0aXRsZSBFbXB0eSBEaWFncmFtIC0gaGkucHVtbAo6aGVsbG87CjpXb3JsZDsKCkBlbmR1bWw=
+@startuml
+
+skin rose
+
+title Components - Component Diagram
+
+[Business Logic]
+[Data Access] as DA  
+component [Graphic User\nInterface] as GUI
+
+@enduml
